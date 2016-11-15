@@ -1,0 +1,41 @@
+#bgcolour-balin {
+  background-color: #2991cc ;
+}
+
+#bgcolour-austin {
+  background-color: #9be492 ;
+  background: linear-gradient(135deg,
+          #5bcd3f 25%,
+          #3067d2,
+          #ab1bcf,
+          #e61f1f 75%
+  animation: BackgroundAnimation 3s linear infinite;
+}
+
+#bgcolour-daniel {
+  background-color: #a2ee7a ;
+}
+
+#bgcolour-dom {
+  background-color: #33a612 ;
+}
+
+#bgcolour-jon {
+  background-color: #ff00de ;
+}
+
+@-webkit-keyframes BackgroundAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes BackgroundAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes BackgroundAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
