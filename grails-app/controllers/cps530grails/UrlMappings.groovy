@@ -17,5 +17,10 @@ class UrlMappings {
           controller  = 'StaticPages'
           action      = 'index'
         }
+
+        "/about" {
+          controller = 'StaticPages'
+          action     = 'about'
+        }
     }
 }
