@@ -18,9 +18,14 @@ class UrlMappings {
           action      = 'index'
         }
 
-        "/about" {
-          controller = 'StaticPages'
-          action     = 'about'
+        "/conclusion" {
+          controller  = 'StaticPages'
+          action      = 'conclusion'
+        }
+
+        "/credits" {
+          controller  = 'StaticPages'
+          action      = 'credits'
         }
     }
 }
