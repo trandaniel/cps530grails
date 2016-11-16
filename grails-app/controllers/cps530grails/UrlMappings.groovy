@@ -27,5 +27,10 @@ class UrlMappings {
           controller  = 'StaticPages'
           action      = 'credits'
         }
+
+        "/setup" {
+          controller  = 'StaticPages'
+          action      = 'setup'
+        }
     }
 }
