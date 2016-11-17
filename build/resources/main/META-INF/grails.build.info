@@ -1,0 +1,6 @@
+#Tue, 15 Nov 2016 15:12:28 -0500
+
+info.app.version=0.1
+info.app.name=cps530grails
+grails.env=development
+info.app.grailsVersion=3.2.3
