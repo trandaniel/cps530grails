@@ -1,62 +1,107 @@
-#bgcolour-balin {
-  background-color: #2991cc ;
-  animation: Balin-Flash 0.5s linear infinite ;
+nav.navbar {
+  z-index: 1 ;
 }
 
-#bgcolour-austin {
-  background: linear-gradient(270deg, #5bcd3f, #3067d2, #ab1bcf, #e61f1f);
+h3.list-group-item-header {
+  background-color: rgba(255, 255, 255, 0.7) ;
+}
+
+p.list-group-item-text {
+  background-color: rgba(255, 255, 255, 0.7) ;
+}
+
+#credits {
+  z-index: -1 ;
+}
+
+#credits h1 {
+  position: relative ;
+  z-index: 1 ;
+}
+
+#group-balin {
+  background-color: #2991cc ;
+  background-image: url("sapphire.png");
+  background-position: 0px 0px ;
+  overflow: hidden ;
+
+  -webkit-animation: Balin-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
+  -moz-animation: Balin-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
+  animation: Balin-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
+}
+
+#group-austin {
+  background-color: #a2ee7a ;
   background-image: url("ramses.png");
   background-position: 0px 0px ;
   overflow: hidden ;
 
   -webkit-animation: Austin-Flash 0.5s linear infinite,
-                      Sweep-Bg 5s linear alternate infinite ;
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
   -moz-animation: Austin-Flash 0.5s linear infinite,
-                      Sweep-Bg 5s linear alternate infinite ;
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
   animation: Austin-Flash 0.5s linear infinite,
-                      Sweep-Bg 5s linear alternate infinite ;
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
 }
 
-#bgcolour-daniel {
+#group-daniel {
   background-color: #a2ee7a ;
   background-image: url("tubbs.png") ;
   background-position: 0px 0px ;
   overflow: hidden ;
 
   -webkit-animation: Daniel-Flash 0.5s linear infinite,
-                      Sweep-Bg 5s linear alternate infinite ;
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
   -moz-animation: Daniel-Flash 0.5s linear infinite,
-                      Sweep-Bg 5s linear alternate infinite ;
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
   animation: Daniel-Flash 0.5s linear infinite,
-                      Sweep-Bg 5s linear alternate infinite ;
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
 }
 
-#bgcolour-dom {
-  background-color: #33a612 ;
-  background-image: url() ;
-  background-position: 0px 0px ;
-  overflow: hidden ;
-
-  -webkit-animation: Dom-Flash 0.5s linear infinite,
-                      Sweep-Bg 5s linear alternate infinite ;
-  -moz-animation: Dom-Flash 0.5s linear infinite,
-                      Sweep-Bg 5s linear alternate infinite ;
-  animation: Dom-Flash 0.5s linear infinite,
-                      Sweep-Bg 5s linear alternate infinite ;
-}
-
-#bgcolour-jon {
+#group-jon {
   background-color: #ff00de ;
-  background-image: url() ;
+  background-image: url("melange.png") ;
   background-position: 0px 0px ;
   overflow: hidden ;
 
   -webkit-animation: Jon-Flash 0.5s linear infinite,
-                      Sweep-Bg 5s linear alternate infinite ;
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
   -moz-animation: Jon-Flash 0.5s linear infinite,
-                      Sweep-Bg 5s linear alternate infinite ;
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
   animation: Jon-Flash 0.5s linear infinite,
-                      Sweep-Bg 5s linear alternate infinite ;
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
+}
+
+#group-dom {
+  background-color: #33a612 ;
+  background-image: url("bengal.png") ;
+  background-position: 0px 0px ;
+  overflow: hidden ;
+
+  -webkit-animation: Dom-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
+  -moz-animation: Dom-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
+  animation: Dom-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
 }
 
 @-webkit-keyframes Sweep-Bg {
@@ -72,6 +117,21 @@
 @keyframes Sweep-Bg {
   from { background-position: 0 0 ;}
   to { background-position: 100% 0 ;}
+}
+
+@-webkit-keyframes Rotate-Bg {
+  from { transform:rotate(-5deg) ;}
+  to { transform:rotate(5deg) ;}
+}
+
+@-moz-keyframes Rotate-Bg {
+  from { transform:rotate(-5deg) ;}
+  to { transform:rotate(5deg) ;}
+}
+
+@keyframes Rotate-Bg {
+  from { transform:rotate(-10deg) ;}
+  to { transform:rotate(10deg) ;}
 }
 
 @-webkit-keyframes Balin-Flash {

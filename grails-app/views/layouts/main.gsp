@@ -37,13 +37,6 @@
     </nav>
     <div class="container">
       <g:layoutBody/>
-      <div class="row">
-        <div class="col-md-2">
-          <g:img dir="" file="apple-touch-icon-retina.png" width=""/>
-        </div>
-        <div class="col-md-10">
-          <h1 style = "font-size:80px">GRAILS</h1>
-        </div>
       </div>
 
     </div>
