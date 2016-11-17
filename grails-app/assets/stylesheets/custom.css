@@ -1,40 +1,185 @@
 #bgcolour-balin {
   background-color: #2991cc ;
+  animation: Balin-Flash 0.5s linear infinite ;
 }
 
 #bgcolour-austin {
   background: linear-gradient(270deg, #5bcd3f, #3067d2, #ab1bcf, #e61f1f);
-  background-size: 400%;
+  background-image: url("ramses.png");
+  background-position: 0px 0px ;
+  overflow: hidden ;
 
-  -webkit-animation: Animation 5s ease infinite;
-  -moz-animation: Animation 5s ease infinite;
-  animation: Animation 5s ease infinite;
-}
-
-@-webkit-keyframes Animation {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes Animation {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes Animation {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  -webkit-animation: Austin-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite ;
+  -moz-animation: Austin-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite ;
+  animation: Austin-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite ;
 }
 
 #bgcolour-daniel {
   background-color: #a2ee7a ;
+  background-image: url("tubbs.png") ;
+  background-position: 0px 0px ;
+  overflow: hidden ;
+
+  -webkit-animation: Daniel-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite ;
+  -moz-animation: Daniel-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite ;
+  animation: Daniel-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite ;
 }
 
 #bgcolour-dom {
   background-color: #33a612 ;
+  background-image: url() ;
+  background-position: 0px 0px ;
+  overflow: hidden ;
+
+  -webkit-animation: Dom-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite ;
+  -moz-animation: Dom-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite ;
+  animation: Dom-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite ;
 }
 
 #bgcolour-jon {
   background-color: #ff00de ;
+  background-image: url() ;
+  background-position: 0px 0px ;
+  overflow: hidden ;
+
+  -webkit-animation: Jon-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite ;
+  -moz-animation: Jon-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite ;
+  animation: Jon-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite ;
+}
+
+@-webkit-keyframes Sweep-Bg {
+  from { background-position: 0 0 ;}
+  to { background-position: 100% 0 ;}
+}
+
+@-moz-keyframes Sweep-Bg {
+  from { background-position: 0 0 ;}
+  to { background-position: 100% 0 ;}
+}
+
+@keyframes Sweep-Bg {
+  from { background-position: 0 0 ;}
+  to { background-position: 100% 0 ;}
+}
+
+@-webkit-keyframes Balin-Flash {
+  0%   {background-color:#62f935; }
+  25%  {background-color:#36f9ff; }
+  50%  {background-color:#fbff37; }
+  75%  {background-color:#ff9900; }
+  100% {background-color:#ff00fc; }
+}
+@-moz-keyframes Balin-Flash {
+  0%   {background-color:#62f935; }
+  25%  {background-color:#36f9ff; }
+  50%  {background-color:#fbff37; }
+  75%  {background-color:#ff9900; }
+  100% {background-color:#ff00fc; }
+}
+@keyframes Balin-Flash {
+  0%   {background-color:#62f935; }
+  25%  {background-color:#36f9ff; }
+  50%  {background-color:#fbff37; }
+  75%  {background-color:#ff9900; }
+  100% {background-color:#ff00fc; }
+}
+
+@-webkit-keyframes Daniel-Flash {
+  0%  {background-color:#36f9ff; }
+  25%  {background-color:#fbff37; }
+  50%  {background-color:#ff9900; }
+  75%  {background-color:#ff00fc; }
+  100%  {background-color:#62f935; }
+}
+@-moz-keyframes Daniel-Flash {
+  0%  {background-color:#36f9ff; }
+  25%  {background-color:#fbff37; }
+  50%  {background-color:#ff9900; }
+  75%  {background-color:#ff00fc; }
+  100%  {background-color:#62f935; }
+}
+@keyframes Daniel-Flash {
+  0%  {background-color:#36f9ff; }
+  25%  {background-color:#fbff37; }
+  50%  {background-color:#ff9900; }
+  75%  {background-color:#ff00fc; }
+  100%  {background-color:#62f935; }
+}
+
+@-webkit-keyframes Austin-Flash {
+  0%  {background-color:#fbff37; }
+  25%  {background-color:#ff9900; }
+  50%  {background-color:#ff00fc; }
+  75%  {background-color:#62f935; }
+  100%  {background-color:#36f9ff; }
+}
+@-moz-keyframes Austin-Flash {
+  0%  {background-color:#fbff37; }
+  25%  {background-color:#ff9900; }
+  50%  {background-color:#ff00fc; }
+  75%  {background-color:#62f935; }
+  100%  {background-color:#36f9ff; }
+}
+@keyframes Austin-Flash {
+  0%  {background-color:#fbff37; }
+  25%  {background-color:#ff9900; }
+  50%  {background-color:#ff00fc; }
+  75%  {background-color:#62f935; }
+  100%  {background-color:#36f9ff; }
+}
+
+@-webkit-keyframes Jon-Flash {
+  0%  {background-color:#ff9900; }
+  25%  {background-color:#ff00fc; }
+  50%  {background-color:#62f935; }
+  75%  {background-color:#36f9ff; }
+  100%  {background-color:#fbff37; }
+}
+@-moz-keyframes Jon-Flash {
+  0%  {background-color:#ff9900; }
+  25%  {background-color:#ff00fc; }
+  50%  {background-color:#62f935; }
+  75%  {background-color:#36f9ff; }
+  100%  {background-color:#fbff37; }
+}
+@keyframes Jon-Flash {
+  0%  {background-color:#ff9900; }
+  25%  {background-color:#ff00fc; }
+  50%  {background-color:#62f935; }
+  75%  {background-color:#36f9ff; }
+  100%  {background-color:#fbff37; }
+}
+
+@-webkit-keyframes Dom-Flash {
+  0%  {background-color:#ff00fc; }
+  25%  {background-color:#62f935; }
+  50%  {background-color:#36f9ff; }
+  75%  {background-color:#fbff37; }
+  100%  {background-color:#ff9900; }
+}
+@-moz-keyframes Dom-Flash {
+  0%  {background-color:#ff00fc; }
+  25%  {background-color:#62f935; }
+  50%  {background-color:#36f9ff; }
+  75%  {background-color:#fbff37; }
+  100%  {background-color:#ff9900; }
+}
+@keyframes Dom-Flash {
+  0%  {background-color:#ff00fc; }
+  25%  {background-color:#62f935; }
+  50%  {background-color:#36f9ff; }
+  75%  {background-color:#fbff37; }
+  100%  {background-color:#ff9900; }
 }
