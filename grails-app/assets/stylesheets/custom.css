@@ -1,16 +1,17 @@
 nav.navbar {
-  z-index: 1 ;
+  z-index: 2 ;
 }
 
 h3.list-group-item-header {
-  background-color: rgba(255, 255, 255, 0.7) ;
+  background-color: rgba(255, 255, 255, 0.85) ;
 }
 
 p.list-group-item-text {
-  background-color: rgba(255, 255, 255, 0.7) ;
+  background-color: rgba(255, 255, 255, 0.85) ;
 }
 
 #credits {
+  margin-top: 5% ;
   z-index: -1 ;
 }
 
@@ -36,23 +37,6 @@ p.list-group-item-text {
                       Rotate-Bg 1s linear alternate infinite ;
 }
 
-#group-austin {
-  background-color: #a2ee7a ;
-  background-image: url("ramses.png");
-  background-position: 0px 0px ;
-  overflow: hidden ;
-
-  -webkit-animation: Austin-Flash 0.5s linear infinite,
-                      Sweep-Bg 5s linear alternate infinite,
-                      Rotate-Bg 1s linear alternate infinite ;
-  -moz-animation: Austin-Flash 0.5s linear infinite,
-                      Sweep-Bg 5s linear alternate infinite,
-                      Rotate-Bg 1s linear alternate infinite ;
-  animation: Austin-Flash 0.5s linear infinite,
-                      Sweep-Bg 5s linear alternate infinite,
-                      Rotate-Bg 1s linear alternate infinite ;
-}
-
 #group-daniel {
   background-color: #a2ee7a ;
   background-image: url("tubbs.png") ;
@@ -66,6 +50,23 @@ p.list-group-item-text {
                       Sweep-Bg 5s linear alternate infinite,
                       Rotate-Bg 1s linear alternate infinite ;
   animation: Daniel-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
+}
+
+#group-austin {
+  background-color: #a2ee7a ;
+  background-image: url("ramses.png");
+  background-position: 0px 0px ;
+  overflow: hidden ;
+
+  -webkit-animation: Austin-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
+  -moz-animation: Austin-Flash 0.5s linear infinite,
+                      Sweep-Bg 5s linear alternate infinite,
+                      Rotate-Bg 1s linear alternate infinite ;
+  animation: Austin-Flash 0.5s linear infinite,
                       Sweep-Bg 5s linear alternate infinite,
                       Rotate-Bg 1s linear alternate infinite ;
 }
@@ -101,7 +102,7 @@ p.list-group-item-text {
                       Rotate-Bg 1s linear alternate infinite ;
   animation: Dom-Flash 0.5s linear infinite,
                       Sweep-Bg 5s linear alternate infinite,
-                      Rotate-Bg 1s linear alternate infinite ;
+                      Rotate-Bg 5s linear alternate infinite ;
 }
 
 @-webkit-keyframes Sweep-Bg {
@@ -130,8 +131,8 @@ p.list-group-item-text {
 }
 
 @keyframes Rotate-Bg {
-  from { transform:rotate(-10deg) ;}
-  to { transform:rotate(10deg) ;}
+  from { transform:rotate(-5deg) ;}
+  to { transform:rotate(5deg) ;}
 }
 
 @-webkit-keyframes Balin-Flash {

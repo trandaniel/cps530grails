@@ -23,9 +23,9 @@ class UrlMappings {
           action      = 'conclusion'
         }
 
-        "/credits" {
+        "/contributors" {
           controller  = 'StaticPages'
-          action      = 'credits'
+          action      = 'contributors'
         }
 
         "/setup" {

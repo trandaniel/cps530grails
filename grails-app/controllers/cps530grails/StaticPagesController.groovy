@@ -5,5 +5,5 @@ class StaticPagesController {
     def index() { }
     def setup() { }
     def conclusion() { }
-    def credits() { }
+    def contributors() { }
 }
