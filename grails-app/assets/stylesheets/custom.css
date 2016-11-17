@@ -1,5 +1,29 @@
+html {
+  animation: Rotate-Webpage 20s linear ;
+  transform:rotate(1deg) ;
+}
+
 nav.navbar {
   z-index: 2 ;
+  background-color: #282a2d ;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: #b1b0b0 ;
+  transition: 0.5s ;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: white ;
+}
+
+.navbar-default .navbar-brand {
+  color: #b1b0b0 ;
+  transition: 0.5s ;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: white ;
 }
 
 h3.list-group-item-header {
@@ -10,8 +34,12 @@ p.list-group-item-text {
   background-color: rgba(255, 255, 255, 0.85) ;
 }
 
+body {
+  background-color: #c5feea ;
+}
+
 #credits {
-  margin-top: 5% ;
+  margin-top: 7% ;
   z-index: -1 ;
 }
 
@@ -133,6 +161,21 @@ p.list-group-item-text {
 @keyframes Rotate-Bg {
   from { transform:rotate(-5deg) ;}
   to { transform:rotate(5deg) ;}
+}
+
+@-webkit-keyframes Rotate-Webpage {
+  from { transform:rotate(0deg) ;}
+  to { transform:rotate(1deg) ;}
+}
+
+@-moz-keyframes Rotate-Webpage {
+  from { transform:rotate(0deg) ;}
+  to { transform:rotate(1deg) ;}
+}
+
+@keyframes Rotate-Webpage {
+  from { transform:rotate(0deg) ;}
+  to { transform:rotate(1deg) ;}
 }
 
 @-webkit-keyframes Balin-Flash {

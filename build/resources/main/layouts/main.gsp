@@ -7,7 +7,7 @@
         <g:layoutHead/>
     </head>
     <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -21,7 +21,7 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">HOME</a></li>
+            <li class=""><a href="#">HOME</a></li>
             <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Getting Started<span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -30,7 +30,7 @@
               <li><a href="#">Item 3</a></li>
             </ul>
             <li><a href="">About</a></li>
-            <li><a href="credits">Credits</a></li>
+            <li><a href="contributors">Contributors</a></li>
           </ul>
         </div>
       </div>
