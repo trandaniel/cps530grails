@@ -21,16 +21,16 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li class=""><a href="#">HOME</a></li>
+            <li class=""><a class = "navbar-item" href="#">HOME</a></li>
             <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Getting Started<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Setting up Grails for MacOS</a></li>
-              <li><a href="#">Item 2</a></li>
-              <li><a href="#">Item 3</a></li>
+              <li><a class = "navbar-item" href="#">Setting up Grails for MacOS</a></li>
+              <li><a class = "navbar-item" href="#">Item 2</a></li>
+              <li><a class = "navbar-item" href="#">Item 3</a></li>
             </ul>
-            <li><a href="">About</a></li>
-            <li><a href="contributors">Contributors</a></li>
+            <li><a class = "navbar-item" href="">About</a></li>
+            <li><a class = "navbar-item" href="contributors">Contributors</a></li>
           </ul>
         </div>
       </div>
