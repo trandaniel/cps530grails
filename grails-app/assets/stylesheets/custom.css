@@ -28,9 +28,28 @@ body {
   z-index: -1 ;
 }
 
+.hyperlink {
+  color: #000000 ;
+  text-decoration: none ;
+  transition: 0.5s ;
+}
+
+.hyperlink:hover {
+  color: #a2a2a2 ;
+  text-decoration: none ;
+}
+
+.installation-text {
+  font-size: 18px ;
+}
 #index {
   padding-top: 70px ;
   z-index: -1 ;
+}
+
+#installation {
+  padding-top: 70px ;
+  z-index: -1;
 }
 
 #credits {
