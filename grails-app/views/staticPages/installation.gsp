@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head>
   <body>
-      <h1>Conclusion</h1>
+    <div class="container">
+      <h1>Getting Started with Grails</h1>
+
+      <h2><a href="#">Setting up Grails with MacOS</a></h2>
+
+
+    </div>
   </body>
 </html>
