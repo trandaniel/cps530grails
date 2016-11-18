@@ -21,7 +21,7 @@
       <br>
       <p class = "text-content">
         On a MacOS system, if you have homebrew installed you may easily install Grails with the following command: <br>
-        <code>$brew install grails</code>
+        &nbsp;&nbsp;&nbsp;&nbsp;<code>$brew install grails</code>
       </p>
       <br>
       <p class = "text-content">
@@ -32,8 +32,8 @@
         <ol>
           <li>Extract the zip to the appropriate loaction
             <ul>
-              <li>For Windows typically installed at<code>C:\grails</code></li>
-              <li>For Unix typically installed at<code>~/grails</code></li>
+              <li>Typically<code>C:\grails</code> for Windows</li>
+              <li>Typically<code>~/grails</code> for Unix</li>
             </ul>
           </li>
           <li>If <code>JAVA_HOME</code> is not setup, you may set it up by creating a <code>JAVA_HOME</code>
