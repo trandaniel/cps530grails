@@ -3,27 +3,15 @@ html {
   transform:rotate(1deg) ;
 }
 
-nav.navbar {
-  z-index: 2 ;
-  background-color: #282a2d ;
-}
 
-.navbar-default .navbar-nav>li>a{
+.navbar-inverse .navbar-nav>li>a{
   color: #b1b0b0 ;
   transition: 0.5s ;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
-  color: white ;
-}
-
-.navbar-default .navbar-brand {
+.navbar-inverse .navbar-brand {
   color: #b1b0b0 ;
   transition: 0.5s ;
-}
-
-.navbar-default .navbar-brand:hover {
-  color: white ;
 }
 
 h3.list-group-item-header {
@@ -34,12 +22,19 @@ p.list-group-item-text {
   background-color: rgba(255, 255, 255, 0.85) ;
 }
 
+
 body {
   background-color: #c5feea ;
+  z-index: -1 ;
+}
+
+#index {
+  padding-top: 70px ;
+  z-index: -1 ;
 }
 
 #credits {
-  margin-top: 7% ;
+  padding-top: 70px ;
   z-index: -1 ;
 }
 

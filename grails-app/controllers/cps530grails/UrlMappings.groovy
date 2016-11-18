@@ -18,6 +18,25 @@ class UrlMappings {
           action      = 'index'
         }
 
+        "/about" {
+          controller  = 'StaticPages'
+          action      = 'about'
+        }
+
+        "/installation" {
+          controller  = 'StaticPages'
+          action      = 'installation'
+        }
+
+        "/tutorial" {
+          controller  = 'StaticPages'
+          action      = 'tutorial'
+        }
+
+        "/example" {
+          controller  = 'StaticPages'
+          action      = 'example'
+        }
         "/conclusion" {
           controller  = 'StaticPages'
           action      = 'conclusion'
@@ -28,9 +47,5 @@ class UrlMappings {
           action      = 'contributors'
         }
 
-        "/setup" {
-          controller  = 'StaticPages'
-          action      = 'setup'
-        }
     }
 }

@@ -3,7 +3,8 @@ package cps530grails
 class StaticPagesController {
 
     def index() { }
-    def setup() { }
+    def about() { }
+    def installation() { }
     def conclusion() { }
     def contributors() { }
 }
