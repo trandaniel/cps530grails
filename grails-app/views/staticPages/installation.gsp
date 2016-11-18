@@ -9,26 +9,26 @@
     <div id = "installation">
       <h1>Installing Grails</h1>
       <br>
-      <p class = "installation-text">
+      <p class = "text-content">
         Installing Grails for any platform (Windows, MacOS, or Linux)
         is fairly simple as there are instructions that you may follow
         on the wiki located <a class = "hyperlink" href="https://grails.org/wiki/Installation">here</a>.
       </p>
       <br>
-      <p class = "installation-text">
+      <p class = "text-content">
         Before installing Grails you must have a Java SDK installed along with the environment variables set.
       </p>
       <br>
-      <p class = "installation-text">
+      <p class = "text-content">
         On a MacOS system, if you have homebrew installed you may easily install Grails with the following command: <br>
         <code>$brew install grails</code>
       </p>
       <br>
-      <p class = "installation-text">
+      <p class = "text-content">
         To install Grails manually, you may download the files from
         <a class = "hyperlink" href="https://grails.org/download.html">here</a> and follow these steps.
       </p>
-      <p class ="installation-text">
+      <p class ="text-content">
         <ol>
           <li>Extract the zip to the appropriate loaction
             <ul>

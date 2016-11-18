@@ -39,9 +39,10 @@ body {
   text-decoration: none ;
 }
 
-.installation-text {
+.text-content {
   font-size: 18px ;
 }
+
 #index {
   padding-top: 70px ;
   z-index: -1 ;
@@ -50,6 +51,11 @@ body {
 #installation {
   padding-top: 70px ;
   z-index: -1;
+}
+
+#tutorial {
+  padding-top: 70px ;
+  z-index: -1 ;
 }
 
 #credits {
