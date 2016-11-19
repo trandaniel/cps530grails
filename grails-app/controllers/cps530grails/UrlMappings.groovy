@@ -47,5 +47,10 @@ class UrlMappings {
           action      = 'contributors'
         }
 
+        "/example" {
+          controller  = 'StaticPages'
+          action      = 'example'
+        }
+
     }
 }
