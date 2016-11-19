@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar server/webapp-runner.jar --port $PORT target/*.war
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/*.war

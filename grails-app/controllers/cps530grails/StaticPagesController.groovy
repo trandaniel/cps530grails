@@ -8,4 +8,5 @@ class StaticPagesController {
     def tutorial() { }
     def conclusion() { }
     def contributors() { }
+    def example() { }
 }

@@ -8,7 +8,7 @@
         <g:layoutHead/>
     </head>
     <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -33,7 +33,7 @@
         </div>
       </div>
     </nav>
-    <div class="container">
+    <div class="container" id="content">
       <g:layoutBody/>
       </div>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>

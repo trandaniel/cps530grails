@@ -1,4 +1,4 @@
-html {
+body {
   animation: Rotate-Webpage 20s linear ;
   transform:rotate(1deg) ;
 }
@@ -43,22 +43,7 @@ body {
   font-size: 18px ;
 }
 
-#index {
-  padding-top: 70px ;
-  z-index: -1 ;
-}
-
-#installation {
-  padding-top: 70px ;
-  z-index: -1;
-}
-
-#tutorial {
-  padding-top: 70px ;
-  z-index: -1 ;
-}
-
-#credits {
+div#content.container {
   padding-top: 70px ;
   z-index: -1 ;
 }
@@ -68,11 +53,14 @@ body {
   z-index: 1 ;
 }
 
+.list-group-item {
+  background-position: 0px 0px ;
+  overflow: hidden ;
+}
+
 #group-balin {
   background-color: #2991cc ;
   background-image: url("sapphire.png");
-  background-position: 0px 0px ;
-  overflow: hidden ;
 
   -webkit-animation: Balin-Flash 0.5s linear infinite,
                       Sweep-Bg 5s linear alternate infinite,
@@ -88,8 +76,6 @@ body {
 #group-daniel {
   background-color: #a2ee7a ;
   background-image: url("tubbs.png") ;
-  background-position: 0px 0px ;
-  overflow: hidden ;
 
   -webkit-animation: Daniel-Flash 0.5s linear infinite,
                       Sweep-Bg 5s linear alternate infinite,
@@ -105,8 +91,6 @@ body {
 #group-austin {
   background-color: #a2ee7a ;
   background-image: url("ramses.png");
-  background-position: 0px 0px ;
-  overflow: hidden ;
 
   -webkit-animation: Austin-Flash 0.5s linear infinite,
                       Sweep-Bg 5s linear alternate infinite,
@@ -122,8 +106,6 @@ body {
 #group-jon {
   background-color: #ff00de ;
   background-image: url("melange.png") ;
-  background-position: 0px 0px ;
-  overflow: hidden ;
 
   -webkit-animation: Jon-Flash 0.5s linear infinite,
                       Sweep-Bg 5s linear alternate infinite,
@@ -139,8 +121,6 @@ body {
 #group-dom {
   background-color: #33a612 ;
   background-image: url("bengal.png") ;
-  background-position: 0px 0px ;
-  overflow: hidden ;
 
   -webkit-animation: Dom-Flash 0.5s linear infinite,
                       Sweep-Bg 5s linear alternate infinite,
@@ -153,29 +133,9 @@ body {
                       Rotate-Bg 5s linear alternate infinite ;
 }
 
-@-webkit-keyframes Sweep-Bg {
-  from { background-position: 0 0 ;}
-  to { background-position: 100% 0 ;}
-}
-
-@-moz-keyframes Sweep-Bg {
-  from { background-position: 0 0 ;}
-  to { background-position: 100% 0 ;}
-}
-
 @keyframes Sweep-Bg {
   from { background-position: 0 0 ;}
   to { background-position: 100% 0 ;}
-}
-
-@-webkit-keyframes Rotate-Bg {
-  from { transform:rotate(-5deg) ;}
-  to { transform:rotate(5deg) ;}
-}
-
-@-moz-keyframes Rotate-Bg {
-  from { transform:rotate(-5deg) ;}
-  to { transform:rotate(5deg) ;}
 }
 
 @keyframes Rotate-Bg {
@@ -183,35 +143,11 @@ body {
   to { transform:rotate(5deg) ;}
 }
 
-@-webkit-keyframes Rotate-Webpage {
-  from { transform:rotate(0deg) ;}
-  to { transform:rotate(1deg) ;}
-}
-
-@-moz-keyframes Rotate-Webpage {
-  from { transform:rotate(0deg) ;}
-  to { transform:rotate(1deg) ;}
-}
-
 @keyframes Rotate-Webpage {
   from { transform:rotate(0deg) ;}
   to { transform:rotate(1deg) ;}
 }
 
-@-webkit-keyframes Balin-Flash {
-  0%   {background-color:#62f935; }
-  25%  {background-color:#36f9ff; }
-  50%  {background-color:#fbff37; }
-  75%  {background-color:#ff9900; }
-  100% {background-color:#ff00fc; }
-}
-@-moz-keyframes Balin-Flash {
-  0%   {background-color:#62f935; }
-  25%  {background-color:#36f9ff; }
-  50%  {background-color:#fbff37; }
-  75%  {background-color:#ff9900; }
-  100% {background-color:#ff00fc; }
-}
 @keyframes Balin-Flash {
   0%   {background-color:#62f935; }
   25%  {background-color:#36f9ff; }
@@ -220,20 +156,6 @@ body {
   100% {background-color:#ff00fc; }
 }
 
-@-webkit-keyframes Daniel-Flash {
-  0%  {background-color:#36f9ff; }
-  25%  {background-color:#fbff37; }
-  50%  {background-color:#ff9900; }
-  75%  {background-color:#ff00fc; }
-  100%  {background-color:#62f935; }
-}
-@-moz-keyframes Daniel-Flash {
-  0%  {background-color:#36f9ff; }
-  25%  {background-color:#fbff37; }
-  50%  {background-color:#ff9900; }
-  75%  {background-color:#ff00fc; }
-  100%  {background-color:#62f935; }
-}
 @keyframes Daniel-Flash {
   0%  {background-color:#36f9ff; }
   25%  {background-color:#fbff37; }
@@ -242,20 +164,6 @@ body {
   100%  {background-color:#62f935; }
 }
 
-@-webkit-keyframes Austin-Flash {
-  0%  {background-color:#fbff37; }
-  25%  {background-color:#ff9900; }
-  50%  {background-color:#ff00fc; }
-  75%  {background-color:#62f935; }
-  100%  {background-color:#36f9ff; }
-}
-@-moz-keyframes Austin-Flash {
-  0%  {background-color:#fbff37; }
-  25%  {background-color:#ff9900; }
-  50%  {background-color:#ff00fc; }
-  75%  {background-color:#62f935; }
-  100%  {background-color:#36f9ff; }
-}
 @keyframes Austin-Flash {
   0%  {background-color:#fbff37; }
   25%  {background-color:#ff9900; }
@@ -264,20 +172,6 @@ body {
   100%  {background-color:#36f9ff; }
 }
 
-@-webkit-keyframes Jon-Flash {
-  0%  {background-color:#ff9900; }
-  25%  {background-color:#ff00fc; }
-  50%  {background-color:#62f935; }
-  75%  {background-color:#36f9ff; }
-  100%  {background-color:#fbff37; }
-}
-@-moz-keyframes Jon-Flash {
-  0%  {background-color:#ff9900; }
-  25%  {background-color:#ff00fc; }
-  50%  {background-color:#62f935; }
-  75%  {background-color:#36f9ff; }
-  100%  {background-color:#fbff37; }
-}
 @keyframes Jon-Flash {
   0%  {background-color:#ff9900; }
   25%  {background-color:#ff00fc; }
@@ -286,20 +180,6 @@ body {
   100%  {background-color:#fbff37; }
 }
 
-@-webkit-keyframes Dom-Flash {
-  0%  {background-color:#ff00fc; }
-  25%  {background-color:#62f935; }
-  50%  {background-color:#36f9ff; }
-  75%  {background-color:#fbff37; }
-  100%  {background-color:#ff9900; }
-}
-@-moz-keyframes Dom-Flash {
-  0%  {background-color:#ff00fc; }
-  25%  {background-color:#62f935; }
-  50%  {background-color:#36f9ff; }
-  75%  {background-color:#fbff37; }
-  100%  {background-color:#ff9900; }
-}
 @keyframes Dom-Flash {
   0%  {background-color:#ff00fc; }
   25%  {background-color:#62f935; }
