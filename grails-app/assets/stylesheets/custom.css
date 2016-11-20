@@ -1,8 +1,40 @@
 body {
   animation: Rotate-Webpage 20s linear ;
   transform:rotate(1deg) ;
+  background-color: #c5feea ;
 }
 
+.hyperlink {
+  color: #000000 ;
+  text-decoration: none ;
+  transition: 0.5s ;
+}
+
+.hyperlink:hover {
+  color: #a2a2a2 ;
+  text-decoration: none ;
+}
+
+li.nav-item.active > a {
+  transform:rotate(-7deg) ;
+  color: #c5feea;
+}
+
+li.nav-item.active > a.navbar-item, li.nav-item.active > a.navbar-item:hover{
+  background-color: rgba(0,0,0,0);
+}
+li.nav-item.active > a.navbar-item {
+  color: rgb(197, 254, 234);
+}
+
+li.nav-item.active:hover > a.navbar-item {
+  text-shadow: 0px 0px 5px rgba(197, 254, 234, 0.7);
+  color: rgb(197, 254, 234);
+}
+
+li.nav-item:not(.active):hover > a {
+  animation: Rotate-Link 3s infinite ;
+}
 
 .navbar-inverse .navbar-nav>li>a{
   color: #b1b0b0 ;
@@ -20,23 +52,6 @@ h3.list-group-item-header {
 
 p.list-group-item-text {
   background-color: rgba(255, 255, 255, 0.85) ;
-}
-
-
-body {
-  background-color: #c5feea ;
-  z-index: -1 ;
-}
-
-.hyperlink {
-  color: #000000 ;
-  text-decoration: none ;
-  transition: 0.5s ;
-}
-
-.hyperlink:hover {
-  color: #a2a2a2 ;
-  text-decoration: none ;
 }
 
 .text-content {
@@ -146,6 +161,11 @@ div#content.container {
 @keyframes Rotate-Webpage {
   from { transform:rotate(0deg) ;}
   to { transform:rotate(1deg) ;}
+}
+
+@keyframes Rotate-Link {
+  from { transform:rotate(0deg) ;}
+  to { transform:rotate(-5deg) ;}
 }
 
 @keyframes Balin-Flash {
