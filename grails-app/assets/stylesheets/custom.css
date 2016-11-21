@@ -15,24 +15,24 @@ body {
   text-decoration: none ;
 }
 
-li.nav-item.active > a {
+a.navbar-item.active {
   transform:rotate(-7deg) ;
   color: #c5feea;
 }
 
-li.nav-item.active > a.navbar-item, li.nav-item.active > a.navbar-item:hover{
+a.navbar-item.active, a.navbar-item.active:hover{
   background-color: rgba(0,0,0,0);
 }
-li.nav-item.active > a.navbar-item {
+a.navbar-item.active {
   color: rgb(197, 254, 234);
 }
 
-li.nav-item.active:hover > a.navbar-item {
+li.nav-item:hover > a.navbar-item.active {
   text-shadow: 0px 0px 5px rgba(197, 254, 234, 0.7);
   color: rgb(197, 254, 234);
 }
 
-li.nav-item:not(.active):hover > a {
+li.nav-item:hover > a.navbar-item:not(.active) {
   animation: Rotate-Link 3s infinite ;
 }
 
