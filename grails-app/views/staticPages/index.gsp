@@ -5,6 +5,6 @@
   <title>CPS530 Grails</title>
 </head>
 <body>
-  <h1>HELLO</h1>
+  <h1 id = "example-page">HELLO</h1>
 </body>
 </html>

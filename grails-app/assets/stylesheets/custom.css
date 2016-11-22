@@ -73,6 +73,22 @@ div#content.container {
   overflow: hidden ;
 }
 
+#example-page {
+  margin-top: 10% ;
+  text-align: center ;
+
+  -webkit-animiation: Text-Colour-Flash 0.5s linear infinite,
+                      Rotate-Text 1.5s linear infinite,
+                      Move-Text 2s linear alternate infinite ;
+  -moz-animation: Text-Colour-Flash 0.5s linear infinite,
+                      Rotate-Text 1.5s linear infinite,
+                      Move-Text 2s linear alternate infinite ;
+  animation: Text-Colour-Flash 0.5s linear infinite,
+                      Rotate-Text 1.5s linear infinite,
+                      Move-Text 2s linear alternate infinite ;
+
+}
+
 #group-balin {
   background-color: #2991cc ;
   background-image: url("sapphire.png");
@@ -145,7 +161,28 @@ div#content.container {
                       Rotate-Bg 1s linear alternate infinite ;
   animation: Dom-Flash 0.5s linear infinite,
                       Sweep-Bg 5s linear alternate infinite,
-                      Rotate-Bg 5s linear alternate infinite ;
+                      Rotate-Bg 1s linear alternate infinite ;
+}
+
+@keyframes Move-Text {
+  0%   { margin-right: 100% ;}
+  25%  { margin-right: 0% ;}
+  50%  { margin-top: 100% ;}
+  75%  { margin-left: 100% ;}
+  100% { margin-top: 0% ;}
+}
+
+@keyframes Text-Colour-Flash {
+  0%   {color: #62f935;}
+  25%  {color: #36f9ff;}
+  50%  {color: #fbff37;}
+  75%  {color: #ff9900;}
+  100% {color: #ff00fc;}
+}
+
+@keyframes Rotate-Text {
+  from { transform:rotate(0deg) ;}
+  to { transform:rotate(360deg) ;}
 }
 
 @keyframes Sweep-Bg {
