@@ -79,13 +79,13 @@ div#content.container {
 
   -webkit-animiation: Text-Colour-Flash 0.5s linear infinite,
                       Rotate-Text 1.5s linear infinite,
-                      Move-Text 2s linear alternate infinite ;
+                      Move-Text 4s linear alternate infinite ;
   -moz-animation: Text-Colour-Flash 0.5s linear infinite,
                       Rotate-Text 1.5s linear infinite,
-                      Move-Text 2s linear alternate infinite ;
+                      Move-Text 4s linear alternate infinite ;
   animation: Text-Colour-Flash 0.5s linear infinite,
                       Rotate-Text 1.5s linear infinite,
-                      Move-Text 2s linear alternate infinite ;
+                      Move-Text 4s linear alternate infinite ;
 
 }
 
