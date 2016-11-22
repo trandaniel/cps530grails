@@ -28,7 +28,7 @@
     </p>
     <h1>Creating your first Grails webpage</h1>
     <p class ="text-content">
-      We will be using staticPages create new webpages using Grails, to do this we must create the folder staticPages under views <br><br>
+      We will be using staticPages to create new webpages using Grails, to do this we must create the folder staticPages under views <br><br>
       &nbsp;&nbsp;&nbsp;&nbsp;<code>~/firstapp/grails-app/views/staticPages/</code> <br><br>
       Now in this folder you may create webpages by creating files with the extenstion <code>.gsp</code>
     </p>
