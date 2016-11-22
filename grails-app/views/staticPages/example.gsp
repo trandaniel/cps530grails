@@ -5,5 +5,7 @@
     <title>CPS530 Grails</title>
   </head>
   <body>
+    <h1 id = "example-page">Hello World!</h1>
+    <g:img dir="images" file="tubbs.png" width="" height="" />
   </body>
 </html>
