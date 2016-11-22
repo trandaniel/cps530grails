@@ -115,7 +115,7 @@
         <p class = "text-content">
           The code above adds a mapping to our <code>helloworld.gsp</code> file. <br><br>
 
-          Now may run our by running <code>$grails run-app</code> or <code>$grails run</code> in the project folder. <br><br>
+          We may now run our code by executing <code>$grails run-app</code> or <code>$grails run</code> in the project folder. <br><br>
 
           The console or terminal will then run the app that is hosted by default at <code>localhost:8080</code> <br>
 

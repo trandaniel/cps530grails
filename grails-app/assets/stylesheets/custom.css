@@ -167,9 +167,9 @@ div#content.container {
 @keyframes Move-Text {
   0%   { margin-right: 100% ;}
   25%  { margin-right: 0% ;}
-  50%  { margin-top: 50% ;}
+  50%  { margin-top: 40% ;}
   75%  { margin-left: 100% ;}
-  100% { margin-top: 0% ;}
+  100% { margin-top: 10% ;}
 }
 
 @keyframes Text-Colour-Flash {
